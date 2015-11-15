@@ -46,6 +46,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\BoardCharacter.cs" />
+     <Compile Include="Assets\Colission.cs" />
+     <Compile Include="Assets\Collision.cs" />
+     <Compile Include="Assets\Health.cs" />
+     <Compile Include="Assets\Move.cs" />
+     <Compile Include="Assets\PlayerCollision.cs" />
      <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
      <Compile Include="Assets\Scripts\ApplicationManager.cs" />
      <Compile Include="Assets\Scripts\BackgroundParallax.cs" />
@@ -86,11 +91,11 @@
      <None Include="Assets\Sprites\Snow.shader" />
      <None Include="Assets\Materials\UI-Default-No-Alpha.shader" />
      <None Include="Assets\Models\Materials\test.shader" />
- <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
